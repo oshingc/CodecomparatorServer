@@ -48,7 +48,7 @@ public class LoginController implements Serializable {
 		} else {
 			login = false;
 			msg = new FacesMessage(FacesMessage.SEVERITY_WARN, "Login Error",
-					"Credenciales no válidas");
+					"Credenciales no v\u00e1lidas");
 		}
 		FacesContext.getCurrentInstance().addMessage(null, msg);
 		context.addCallbackParam("login", login);

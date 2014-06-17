@@ -26,7 +26,7 @@ public class ComparisonCommandFacadeImpl implements ComparisonCommandFacade,
 	public List<ContainerChartResult> comparisionProject(Project projectOne,
 			Project projectTwo) {
 
-		List<ContainerChartResult> containers = new ArrayList<>();
+		List<ContainerChartResult> containers = new ArrayList<ContainerChartResult>();
 		containers = serviceComparison.comparisionProject(projectOne,
 				projectTwo);
 

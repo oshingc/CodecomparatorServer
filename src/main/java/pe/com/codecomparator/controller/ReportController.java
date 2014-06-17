@@ -13,7 +13,7 @@ public class ReportController implements Serializable {
 	 */
 	private static final long serialVersionUID = 7121477687076224246L;
 
-	private List<ContainerChartResult> containers = new ArrayList<>();
+	private List<ContainerChartResult> containers = new ArrayList<ContainerChartResult>();
 
 	public List<ContainerChartResult> getContainers() {
 		return containers;

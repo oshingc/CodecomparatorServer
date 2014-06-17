@@ -25,7 +25,7 @@ public class ProjectUploadController implements Serializable {
 
 	private Project firstProject = new Project();
 	private Project secondProject = new Project();
-	private List<ContainerChartResult> containers = new ArrayList<>();
+	private List<ContainerChartResult> containers = new ArrayList<ContainerChartResult>();
 
 	// Utilizado para visualizar o no las etiquetas de carga para el segundo
 	// proyecto
@@ -67,7 +67,7 @@ public class ProjectUploadController implements Serializable {
 	public void compare() {
 		resetAll();
 
-		containers = new ArrayList<>();
+		containers = new ArrayList<ContainerChartResult>();
 		containers = comparisonCommandFacade.comparisionProject(
 				this.firstProject, this.secondProject);
 		try {

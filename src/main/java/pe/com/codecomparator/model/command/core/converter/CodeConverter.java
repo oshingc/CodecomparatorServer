@@ -17,7 +17,7 @@ public class CodeConverter {
 
 	public String[] split(String value, String[] separators) {
 		String[] words = null;
-		ArrayList<String> temp = new ArrayList<>();
+		ArrayList<String> temp = new ArrayList<String>();
 		for (String separator : separators) {
 			value = value.replaceAll(separator, "¬");
 		}
