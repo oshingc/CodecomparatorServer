@@ -1,6 +1,8 @@
 .classpath
 .project
 .springBeans
+CodecomparatorServer.iml
+/.idea
 .settings/*
 target/*
 /target
