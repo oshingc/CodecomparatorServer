@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" 
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:h="http://java.sun.com/jsf/html"
+	xmlns:f="http://java.sun.com/jsf/core"
+	xmlns:p="http://primefaces.org/ui">
+
+<h:head>
+	<title>CodeComparator v0.1</title>
+</h:head>
+<h:body style="background:url(img/stars.jpg); text-align:center">
+	<br />
+	<br />
+	<br />
+	<br />
+	<br />
+	<table style="margin: 0 auto; position: relative;">
+		<tr>
+			<td style="text-align: center; color: #ededed; font-size: 100px"><p:outputLabel
+					style="text-align: center; color: #ededed; font-size: 100px"
+					onclick="toLogin()">Code</p:outputLabel></td>
+		</tr>
+		<tr>
+			<td style="text-align: center; color: #ededed; font-size: 100px"><p:outputLabel
+					style="text-align: center; color: #ededed; font-size: 100px"
+					onclick="toLogin()">Comparator</p:outputLabel></td>
+		</tr>
+		<tr>
+			<td style="text-align: center; color: #ededed; font-size: 100px"><p:outputLabel
+					style="text-align: center; color: #ededed; font-size: 100px"
+					onclick="toLogin()">v0.1</p:outputLabel></td>
+		</tr>
+	</table>
+</h:body>
+<script type="text/javascript">
+  function toLogin() {
+      setTimeout(function() {
+        window.location = 'http://localhost:8080/codecomparator/views/login.xhtml';
+      }, 100);
+  }
+</script>
+</html>
